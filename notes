@@ -1,0 +1,26 @@
+@covid-19
+
+NOTE
+-table harus slide di dalam component
+-navbar responsive
+-error handling harus ada
+-referensi design
+
+FRAMEWORK
+-reactstrap
+-react table2
+-react-icons
+-node sass
+
+API
+-kawalcorona
+
+PAGES
+-home (kasus di indonesia & provinsi2nya)
+-world (kasus dunia & negara2 lainnya)
+-about (data developer & info API)
+
+PHOTO
+-<span>Photo by <a href="https://unsplash.com/@fusion_medical_animation?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fusion Medical Animation</a> on <a href="https://unsplash.com/s/photos/covid19?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+-<span>Photo by <a href="https://unsplash.com/@marjan_blan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Марьян Блан | @marjanblan</a> on <a href="https://unsplash.com/s/photos/coronavirus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
