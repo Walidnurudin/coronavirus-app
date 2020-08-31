@@ -14,12 +14,16 @@ class Home extends React.Component {
     }
 
     getDataNational(){
-        axios.get("https://api.kawalcorona.com/indonesia")
+        axios.get("https://api.kawalcorona.com/indonesia", {
+            headers: {
+                'Content-Type': 'application/json, text/html'
+            }
+        })
             .then(function(res){
                 console.log(res)
             })
             .catch(function(err){
-                console.log("error", err)
+                alert("error", err.message)
             })
     }
 

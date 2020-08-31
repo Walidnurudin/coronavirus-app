@@ -22,7 +22,7 @@ export default function Hero(props) {
             {/* BOX */}
             <div className="row row-cols-1 row-cols-md-3">
                 <div className="col box-info mb-3 mb-md-0">
-                    <div className="row">
+                    <div className="row bg-danger">
                         <div className="col data">
                             <p>CASES</p>
                             <h3>{props.positif}</h3>
@@ -34,7 +34,7 @@ export default function Hero(props) {
                 </div>
 
                 <div className="col box-info mb-3 mb-md-0">
-                    <div className="row">
+                    <div className="row bg-success">
                         <div className="col data">
                             <p>RECOVERED</p>
                             <h3>{props.recovered}</h3>
@@ -45,8 +45,8 @@ export default function Hero(props) {
                     </div>
                 </div>
 
-                <div className="col box-info mb-3 mb-md-0">
-                    <div className="row">
+                <div className="col box-info mb-3 mb-md-">
+                    <div className="row bg-info">
                         <div className="col data">
                             <p>DEATH</p>
                             <h3>{props.death}</h3>

@@ -37,6 +37,7 @@ code {
         font-size: 13px;
         font-weight: bold;
         margin: 0;
+        color: white;
       }
       h3 {
         margin: 0;
@@ -52,6 +53,10 @@ code {
 .emot {
   height: 65px;
   margin: auto;
+}
+
+.PP {
+  height: 75px;
 }
 
 @media (min-width: 992px){
